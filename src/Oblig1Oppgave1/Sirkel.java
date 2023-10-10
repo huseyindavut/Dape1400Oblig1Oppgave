@@ -19,13 +19,13 @@ public class Sirkel {
     public static void main(String[] args) {
 
         double radius = 23.5;
-        double diameteren = radius * 2;
-        double omkretsen = (2*Math.PI) * radius;
-        double arealen = Math.PI * radius * radius;
+        double innDiameter = radius * 2;
+        double innOmkretsen = (2*Math.PI) * radius;
+        double innArealen = Math.PI * Math.pow(radius,2);
 
-        String omkrets = String.format("%.2f", omkretsen);
-        String areal = String.format("%.2f", arealen);
-        String diameter = String.format("%.2f", diameteren);
+        String omkrets = String.format("%.2f", innOmkretsen);
+        String areal = String.format("%.2f", innArealen);
+        String diameter = String.format("%.2f", innDiameter);
 
 
         System.out.println("Arealet av sirkelen med radius 23.5 "+areal);
