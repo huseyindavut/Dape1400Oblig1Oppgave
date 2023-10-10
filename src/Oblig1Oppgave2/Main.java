@@ -50,9 +50,6 @@ class Vare{
         return antall*pris;
     }
 }
-class kjoper{
-
-}
 public class Main {
     public static void main(String[] args) {
 
