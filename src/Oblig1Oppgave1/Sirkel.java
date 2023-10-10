@@ -2,16 +2,16 @@ package Oblig1Oppgave1;
 
 import java.text.DecimalFormat;
 
-public class Sirkel {
-    public static double beregneSirkelensDiameter(double radius) {
+class Sirkel {
+    public double beregneSirkelensDiameter(double radius) {
         double diameter = radius * 2;
         return diameter;
     }
-    private static double beregneSirkelensOmkrets(double radius){
+    public double beregneSirkelensOmkrets(double radius){
         double omkrets = (2*Math.PI) * radius;
         return omkrets;
     }
-    private static double beregneSirkelensAreal(double radius){
+    public double beregneSirkelensAreal(double radius){
         double areal = Math.PI * radius * Math.pow(radius,2);
         return areal;
     }
